@@ -1,0 +1,15 @@
+{
+  "name": "com.pinkfong-unity.texttest.ui",
+  "displayName": "texttest",
+  "version": "1.0.0",
+  "description": "for test",
+  "homepage": "git@github.com:pinkfong-tech/com.thepinkfongcompany.ui.purchasepopup.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pinkfong-tech/com.thepinkfongcompany.ui.purchasepopup.git"
+  },
+  "author": "The Pinkfong company",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
