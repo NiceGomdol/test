@@ -1,5 +1,5 @@
 {
-    "name": "com.thepinkfongcompany.texttest.ui",
+    "name": "com.thepinkfongcompany.texttest.ui.editor",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
