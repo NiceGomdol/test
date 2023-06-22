@@ -1,16 +1,18 @@
+#if UNITY_EDITOR && UNITY_IOS
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
-using UnityEngine;
 using UnityEditor.iOS.Xcode;
 
 
 namespace SmartStudy.PID
 {
-    public class SSPListProcessor : MonoBehaviour
+    public class SSPListProcessor
     {
         [PostProcessBuild]
         public static void OnPostPListProcessBuild(BuildTarget buildTarget, string path)
@@ -28,3 +30,5 @@ namespace SmartStudy.PID
 
     }
 }
+
+#endif
