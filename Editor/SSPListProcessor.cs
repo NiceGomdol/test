@@ -21,6 +21,7 @@ namespace SmartStudy.PID
             PlistDocument plist = new PlistDocument();
             plist.ReadFromFile(plistPath);
             AddITSAppUsesNonExemptEncryption(plist);
+            File.WriteAllText(plistPath, plist.WriteToString());
         }
         
         public static void AddITSAppUsesNonExemptEncryption(PlistDocument plist)
